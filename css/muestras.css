@@ -1,0 +1,55 @@
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+      float: left;
+      width: 20%;
+
+		}
+		ul.tabs li{
+			background: #707070;
+			color: white;
+			display: inline-block;
+			padding: 10px 25px;
+			cursor: pointer;
+      display: block;
+			border-top: 1px solid black;
+		}
+
+		ul.tabs li.current{
+			background: #292729;
+			color: white;
+		}
+
+		.tab-content{
+			display: none;
+			background: #292729;
+			padding: 40px 50px 30px 50px;
+			position: relative;
+      float: left;
+      width: 80%;
+			border-radius: 0px 8px 8px 8px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+		ul.tabs li:first-child{
+			border-radius: 8px 0px 0px 0px;
+		}
+
+		ul.tabs li:last-child{
+			border-radius: 0px 0px 0px 8px;
+		}
+
+		.boton-vermas {
+			background: #707070;
+			color: white;
+			padding: 5px 10px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 5px;
+		}
