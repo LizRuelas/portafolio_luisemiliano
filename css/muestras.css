@@ -30,7 +30,7 @@
 			position: relative;
       float: left;
       width: 80%;
-			border-radius: 0px 8px 8px 8px;
+			border-radius: 0px 4px 4px 4px;
 		}
 
 		.tab-content.current{
@@ -38,18 +38,22 @@
 		}
 
 		ul.tabs li:first-child{
-			border-radius: 8px 0px 0px 0px;
+			border-radius: 4px 0px 0px 0px;
 		}
 
 		ul.tabs li:last-child{
-			border-radius: 0px 0px 0px 8px;
+			border-radius: 0px 0px 0px 4px;
 		}
 
 		.boton-vermas {
 			background: #707070;
-			color: white;
 			padding: 5px 10px;
 			cursor: pointer;
-			font-size: 20px;
-			border-radius: 5px;
+			border-radius: 4px;
+		}
+
+		.paginacion {
+			margin-top: 31%;
+			text-align: center;
+			color: white;
 		}
