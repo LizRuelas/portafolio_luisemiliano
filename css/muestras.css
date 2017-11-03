@@ -10,12 +10,16 @@
 		}
 		ul.tabs li{
 			background: #707070;
-			color: white;
+			color: #9C9B9B;
 			display: inline-block;
 			padding: 10px 25px;
 			cursor: pointer;
       display: block;
 			border-top: 1px solid black;
+		}
+
+		ul.tabs li:hover{
+			color: white;
 		}
 
 		ul.tabs li.current{
@@ -45,15 +49,10 @@
 			border-radius: 0px 0px 0px 4px;
 		}
 
-		.boton-vermas {
-			background: #707070;
-			padding: 5px 10px;
-			cursor: pointer;
-			border-radius: 4px;
-		}
+	
 
 		.paginacion {
 			margin-top: 31%;
 			text-align: center;
-			color: white;
+			color: #9C9B9B;
 		}

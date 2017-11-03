@@ -19,9 +19,17 @@
 
       .muestras_responsive .tabs .tab-link {
         text-align: center;
-        font-size: 130%;
+        font-size: 110%;
       }
     }
+
+    /*Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+
+    Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }*/
+
+
 
     @media (min-width: 1200px) {
       .muestras_responsive {
@@ -132,12 +140,15 @@
               		<li class="tab-link" data-tab="tab-8">4</li>
               	</ul>
 
-              	<div id="tab-5" class="tab-content current">
+              	<div id="tab-5" class="tab-content current center">
                   <h6>Hu-Manos</h6>
-                  <span>9 de Septiembre 2009 / Centro Cultural Parra del Riego</span>
-                  <img src="images/muestras/humanos/_MG_7275.JPG">
-                  <div style="text-align:center;margin-top:20px">
-                    <a class="boton-vermas" href="#" target="_blank" class="button">Ver álbum completo</a>
+                  <span>9 de Septiembre 2009</span><br>
+                  <span>Centro Cultural Parra del Riego</span>
+                  <div style="margin-top:25px">
+                    <img src="images/muestras/humanos/_MG_7275.JPG">
+                  </div>
+                  <div class="mfControls center" style="text-align:center">
+                    <button onclick="window.open('http://localhost/portafolio_luisemiliano/album_1.html')" >Ver álbum completo<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
                   </div>
                 </div>
               	<div id="tab-6" class="tab-content">
@@ -179,7 +190,7 @@
 
                 	<div id="tab-1" class="tab-content current">
                     <div class="content_tab">
-                      <div id="slides1">
+                      <div id="slides1" >
                         <img src="images/muestras/humanos/_MG_7268.JPG">
                         <img src="images/muestras/humanos/_MG_7269.JPG">
                         <img src="images/muestras/humanos/_MG_7271.JPG">
@@ -189,7 +200,9 @@
                       <div id="slidesjs-log1" class="paginacion" >
                         <h6><span class="slidesjs-slide-number">1</span> de 5 fotos <br>
                         <span>9 de Septiembre 2009 / Centro Cultural Parra del Riego</span><br></h6>
-                        <h6><a class="boton-vermas" href="http://localhost/test_portafolio/album_1.html" target="_blank" class="button">Ver álbum completo</a></h6>
+                        <div class="mfControls center" style="text-align:center">
+                          <button onclick="window.open('http://localhost/portafolio_luisemiliano/album_1.html')" >Ver álbum completo<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
+                        </div>
                       </div>
                     </div>
                  	</div>
@@ -204,7 +217,9 @@
                     <div id="slidesjs-log2" class="paginacion" >
                       <h6><span class="slidesjs-slide-number">1</span> de 5 fotos <br>
                       <span>14 de Noviembre 2014 / Galería de Arte "La Polaca"</span><br></h6>
-                      <h6><a class="boton-vermas" href="http://localhost/test_portafolio/album_1.html" target="_blank" class="button">Ver álbum completo</a></h6>
+                      <div class="mfControls center" style="text-align:center">
+                        <button onclick="window.open('http://localhost/portafolio_luisemiliano/album_1.html')" >Ver álbum completo<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
+                      </div>
                     </div>
                 	</div>
                 	<div id="tab-3" class="tab-content">
@@ -218,7 +233,9 @@
                     <div id="slidesjs-log3" class="paginacion" >
                       <h6><span class="slidesjs-slide-number">1</span> de 5 fotos <br>
                       <span>17 de Abril 2015 / Galería del Teatro "La Plaza"</span><br></h6>
-                      <h6><a class="boton-vermas" href="http://localhost/test_portafolio/album_1.html" target="_blank" class="button">Ver álbum completo</a></h6>
+                      <div class="mfControls center" style="text-align:center">
+                        <button onclick="window.open('http://localhost/portafolio_luisemiliano/album_1.html')" >Ver álbum completo<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
+                      </div>
                     </div>
 
                 	</div>
@@ -233,7 +250,9 @@
                     <div id="slidesjs-log3" class="paginacion" >
                       <h6><span class="slidesjs-slide-number">1</span> de 5 fotos <br>
                       <span>10 de Junio 2017 / Instalación en el Valle Sagrado, Cuzco</span><br></h6>
-                      <h6><a class="boton-vermas" href="http://localhost/test_portafolio/album_1.html" target="_blank" class="button">Ver álbum completo</a></h6>
+                      <div class="mfControls center" style="text-align:center">
+                        <button onclick="window.open('http://localhost/portafolio_luisemiliano/album_1.html')" >Ver álbum completo<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
+                      </div>
                     </div>
                   </div>
 
@@ -258,7 +277,7 @@
             </div>
             <div class="container">
               <div class="mfControls center">
-                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right"></i></button>
+                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
               </div>
             </div>
 
@@ -280,7 +299,7 @@
             </div>
             <div class="container">
               <div class="mfControls center">
-                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right"></i></button>
+                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
               </div>
             </div>
         </section>
@@ -338,7 +357,7 @@
             </div>
             <div class="container">
               <div class="mfControls center">
-                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right"></i></button>
+                <button onclick="window.open('https://www.youtube.com/')" style="float:right">Ver más<i style="margin-left:15px;" class="fa fa-angle-right fa-lg"></i></button>
               </div>
             </div>
         </section>
@@ -372,7 +391,7 @@
                             <li><a href="#" class="fa-instagram"></a></li>
                         </ul>
                         <div class="copyright">
-                            Tom Cooper © <span id="copyright-year"></span>.
+                            Luis Emiliano Castro Mendivil © <span id="copyright-year"></span>.
                             <a href="index-1.html">Privacy Policy</a>
                             <!-- {%FOOTER_LINK} -->
                         </div>
